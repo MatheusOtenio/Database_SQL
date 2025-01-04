@@ -1,3 +1,4 @@
+
 CREATE TABLE vendas (
  id_nf INT,
  id_item INT,
@@ -12,6 +13,7 @@ CREATE TABLE vendas (
 
 
 INSERT INTO vendas (id_nf, id_item, cod_prod, valor_unit, quantidade, desconto) VALUES
+
  -> (1, 1, 1, 25.00, 10, 5),
  -> (1, 2, 2, 13.50, 3, NULL),
  -> (1, 3, 3, 15.00, 2, NULL),
@@ -47,6 +49,7 @@ INSERT INTO vendas (id_nf, id_item, cod_prod, valor_unit, quantidade, desconto) 
 
 ===============================================================================================//
 
+ 
 
 mysql> SELECT *
  -> FROM vendas
